@@ -40,6 +40,16 @@ WHEN I click on the links in the Table of Contents
 
 THEN I am taken to the corresponding section of the README
 
+## Screenshots
+
+Prompts:
+
+![alt text](<Screenshot 2024-04-12 000302.png>)
+
+Generated README
+
+![alt text](<Screenshot 2024-04-12 000420.png>)
+
 ## Link to Github
 
 https://github.com/Al3xG23/ReadMe-Generator
