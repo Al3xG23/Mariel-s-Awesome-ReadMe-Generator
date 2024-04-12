@@ -72,7 +72,12 @@ function writeToFile() {
 
 ## Table of Contents
 
-${data.choices}
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 
@@ -94,7 +99,7 @@ ${data.Usage}
 
 ${data.License}
 
-## Contributing
+## Contributors
 
 ${data.Contributing}
 
