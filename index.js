@@ -1,16 +1,14 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { constants } = require('buffer');
+// const { constants } = require('buffer');
 
 // Created an array of messages for user input
 const questions = [
-    {
-        //TODO: user input should take over the name
+    {        
         name: 'Your_Project_Title',
         message: "What is your project's title?"
-    },
-    // TODO: these 3 should be under description
+    },    
     {
         name: 'AS_A_USER',
         message: "What was your motivation for this project?"
@@ -51,22 +49,20 @@ const questions = [
     {
         name: 'Tests',
         message: "What are your test instructions?"
-    },
-    // TODO: these last 2 should both be under Questions section
+    },    
     {
-        //TODO: generate link to GitHub with username input
+        
         name: 'Questions1',
         message: "Enter your GitHub username:"
     },
     {
-        //TODO: add comment saying "If you have more questions you can reach me at... input email here"
         name: 'Questions2',
         message: "Enter your email:"
     },
 ];
 
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile() {
     inquirer.prompt(questions, function (data) {
     })
@@ -106,7 +102,7 @@ ${data.Tests}
 
 GITHUB: ${data.Questions1}
 
-EMAIL: ${data.Questions2}`
+If you have more questions you can reach me at: ${data.Questions2}`
 
 
         fs.writeFile(filename, readmeData, (err) => {
