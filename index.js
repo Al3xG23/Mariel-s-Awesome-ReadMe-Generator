@@ -21,13 +21,13 @@ const questions = [
         name: 'SO_THAT',
         message: "What problem does this project solve?"
     },
-    {
-        // TODO: should have a list of things to choose from to include as links in the README
-        type: 'checkbox',
-        name: 'Table Of Contents',
-        message: "What do you want to include in your Table of Contents?",
-        choices: ['Description', 'Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'],
-    },
+    // {
+    //     // TODO: should have a list of things to choose from to include as links in the README
+    //     type: 'checkbox',
+    //     name: 'Table Of Contents',
+    //     message: "What do you want to include in your Table of Contents?",
+    //     choices: ['Description', 'Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'],
+    // },
     {
         name: 'Installation',
         message: "What are your project's installation instructions?"
