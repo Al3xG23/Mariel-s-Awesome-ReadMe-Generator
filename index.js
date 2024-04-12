@@ -7,20 +7,20 @@ const { constants } = require('buffer');
 const questions = [
     {
         //TODO: user input should take over the name
-        name: 'Your Project Title',
+        name: 'Your_Project_Title',
         message: "What is your project's title?"
     },
     // TODO: these 3 should be under description
     {
-        name: 'AS A USER',
-        message: "What was your motivation?"
+        name: 'AS_A_USER',
+        message: "What was your motivation for this project?"
     },
     {
-        name: 'I WANT',
-        message: "Why did you build this project?"
+        name: 'I_WANT',
+        message: "What do you want your project to do?"
     },
     {
-        name: 'SO THAT',
+        name: 'SO_THAT',
         message: "What problem does this project solve?"
     },
     {
@@ -50,7 +50,7 @@ const questions = [
     },
     {
         name: 'Tests',
-        message: "What are your test instrcutions?"
+        message: "What are your test instructions?"
     },
     // TODO: these last 2 should both be under Questions section
     {
@@ -72,7 +72,44 @@ function writeToFile() {
     })
     .then((data) => {
         const filename = 'generatedREADME.md'
-        fs.writeFile(filename, JSON.stringify(data), (err) => {
+        const readmeData = `# ${data.Your_Project_Title}
+
+## Description
+
+AS A USER: ${data.AS_A_USER}
+
+I WANT TO: ${data.I_WANT}
+
+SO THAT: ${data.SO_THAT}
+
+## Installation
+
+${data.Installation}
+
+## Usage
+
+${data.Usage}
+
+## License
+
+${data.License}
+
+## Contributing
+
+${data.Contributing}
+
+## Tests
+
+${data.Tests}
+
+## Questions
+
+GITHUB: ${data.Questions1}
+
+EMAIL: ${data.Questions2}`
+
+
+        fs.writeFile(filename, readmeData, (err) => {
             if (err) throw err;
             console.log('Your README file has been saved!');
         });
