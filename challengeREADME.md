@@ -52,7 +52,7 @@ Generated README
 
 ## Link to Github
 
-https://github.com/Al3xG23/ReadMe-Generator
+https://github.com/Al3xG23/Mariel-s-Awesome-ReadMe-Generator
 
 ## Link to Walkthrough
 
