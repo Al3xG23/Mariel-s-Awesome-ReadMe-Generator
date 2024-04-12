@@ -1,24 +1,24 @@
-# Hello World
+# Logo Generator
 
 ## Description
 
-AS A USER: Fix my issues creating readmes
+AS A USER: I need help making logos
 
-I WANT TO: Fix readmes
+I WANT TO: Generate Logo from user input
 
-SO THAT: bad readmes
+SO THAT: There are no more bad LOGOS
 
 ## Installation
 
-do it
+Use
 
 ## Usage
 
-run npm start
+Follow prompts
 
 ## License
 
-MIT License
+BSD 2-Clause "Simplified" License
 
 ## Contributing
 
@@ -26,10 +26,10 @@ Mariel
 
 ## Tests
 
-none at teh moment
+None
 
 ## Questions
 
-GITHUB: ghhthaaf
+GITHUB: mabs
 
-EMAIL: ahhghth@gsgfsdg.com
+If you have more questions you can reach me at: mabs@mabs.com
