@@ -1,4 +1,4 @@
-# hello
+# Hola Mundo
 
 ## Table of Contents
 
@@ -11,34 +11,34 @@
 
 ## Description
 
-AS A USER: hi
+AS A USER: Needed to say hello
 
-I WANT TO: howdy
+I WANT TO: Say hello
 
-SO THAT: hola
+SO THAT: No one says hello
 
 ## Installation
 
-hiya
+Type node index.js into your terminal
 
 ## Usage
 
-alo
+Follow prompts
 
 ## License
 
-Apache License 2.0
+MIT License
 
 ## Contributors
 
-waving
+Mariel
 
 ## Tests
 
-nodding
+None at teh moment
 
 ## Questions
 
-GITHUB: high fiving
+GITHUB: Ahh
 
-If you have more questions you can reach me at: ignore
+If you have more questions you can reach me at: AHh@ahh.com
