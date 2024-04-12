@@ -70,6 +70,15 @@ function writeToFile() {
         const filename = 'README.md'
         const readmeData = `# ${data.Your_Project_Title}
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Tests](#tests)
+- [Questions](#questions)
+
 ## Description
 
 AS A USER: ${data.AS_A_USER}
@@ -90,7 +99,7 @@ ${data.Usage}
 
 ${data.License}
 
-## Contributing
+## Contributors
 
 ${data.Contributing}
 
