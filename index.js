@@ -71,7 +71,7 @@ function writeToFile() {
     inquirer.prompt(questions, function (data) {
     })
     .then((data) => {
-        const filename = 'generatedREADME.md'
+        const filename = 'README.md'
         const readmeData = `# ${data.Your_Project_Title}
 
 ## Description

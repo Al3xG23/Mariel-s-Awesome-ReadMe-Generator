@@ -1,1 +1,0 @@
-{"yourProjectTitle":"hello","description1":"hi","description2":"hey","description3":"ola","development":"what up","installation":"alo","usage":"ciao","license":"yes","license1":"mit"}
